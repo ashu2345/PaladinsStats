@@ -9,6 +9,10 @@ import requests
 import webbrowser
 
 sep = '/'
+TOKEN = process.env.TOKEN
+devID = process.env.devID
+authKey = process.env.authKey
+pcURL = process.env.pcURL
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
