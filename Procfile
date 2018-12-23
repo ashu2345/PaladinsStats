@@ -1,1 +1,1 @@
-worker: python stats-bot.py
+web: python stats-bot.py
